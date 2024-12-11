@@ -1,0 +1,133 @@
+*, :after, :before {
+  box-sizing: border-box;
+}
+ h1,h2,h3,h4{
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+header .navbar .d-flex .form-control{
+  background: #334155;
+}
+
+header .navbar .d-flex .btn-primary{
+  background: #682ebf;
+  border: none;
+}
+
+.navbar-transparent {
+    background-color: transparent;
+    box-shadow: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    z-index: 1009;
+    background: #020617!important;
+}
+.navbar {
+  background-color: var(--bs-body-bg);
+  padding: .5rem; 
+}
+.hero-agency {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero-agency .btn-primary{
+  background: #682ebf;
+  border: none;
+}
+.hero-agency .btn-primary:hover{
+  color: #fff;
+  background: #6f31cc;
+}
+
+
+/* logo-item */
+.logo-item{
+  background: #020617!important;
+}
+
+/* my-Featured */
+.my-Featured{
+  background: #020617!important;
+}
+.my-Featured .col-lg-4 .card-body{
+  background: #020617!important;
+
+}
+.my-Featured .col-lg-4 .card{
+  border-color: #121833;
+}
+.my-Featured .col-lg-4 .card-body p{
+  color: #636363;
+  border: none;
+}
+.my-Featured .btn-primary{
+  background: #682ebf;
+  border: none;
+}
+.my-Featured .btn-primary:hover{
+  color: #fff;
+  background: #281446;
+}
+.building-the-web .col-lg-8 img{
+  width:150px ;
+}
+.Creating-performance{
+  background: #1e293b;
+}
+.Creating-performance .col-lg-6 .icon img{
+  width: 80px;
+  color:#682ebf ;
+}
+.Creating-performance .col-lg-6 .d-lg-flex{
+  border: 1px solid  #30354a;
+  border-radius: 15px;
+}
+.Creating-performance p{
+  color: #c1c1c1;
+}
+.Creating-performance .col-lg-4 a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.Creating-performance .col-lg-8{
+  border-radius: 6px;
+  border: 1px solid  #30354a;
+}
+.creative-strategy{
+  background: #020617!important;
+}
+.creative-strategy .about-imges img{
+  margin-top: 60px;
+  width: 440px;
+
+}
+.creative-strategy p{
+  color: #c1c1c1;
+}
+.creative-strategy .on-agency .card{
+  background: none;
+}
+
+.pattern-square {
+    position: relative;
+}
+.bg-opacity-10 {
+    --bs-bg-opacity: 0.1;
+}
+.pattern-square{  
+  background: #020617!important;
+
+}
+.my-footer{
+  background: #17212f;
+}
+.my-footer p{
+  color: #64748b;
+}
